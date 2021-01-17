@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>R.J. Schodowski Music</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href="css/html_reset.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/22c2dd1839.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="header">
+      		<h1><a href="#">R.J. Schodowski Music</a></h1>
+    	</div>
+    	<div class="navigation">
+    		<a href="#" class="toggleNav">☰ Menu</a>
+    		<ul>
+    			<li><a href="#">Home</a></li>
+    			<li><a href="#">Music</a></li>
+    			<li><a href="#">Shows</a></li>
+    			<li><a href="#">Media</a></li>
+    			<li class="social">
+    				<a href="https://www.facebook.com/rjschodowskimusic"><i class="fab fa-facebook-f"></i></a></li>
+    			<li class="social">
+    				<a href="#"><i class="fab fa-instagram"></i></a></li>
+    			<li class="social">
+    				<a href="https://rjschodowskimusic.bandcamp.com/"><i class="fa fa-bandcamp"></i></a></li>
+    			<li class="social">
+    				<a href="https://www.youtube.com/channel/UCrcBCsFv_gk_B1x28ytlj-w"><i class="fab fa-youtube"></i></a></li>
+    		</ul>
+    	</div>
+	</div>
+
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+    
+    $(function() {
+      $('.toggleNav').on('click',function() {
+        $('.flex-nav ul').toggleClass('open');
+      });
+    });
+
+  </script>
+
+</body>
+</html>
