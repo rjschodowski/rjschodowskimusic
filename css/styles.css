@@ -133,5 +133,37 @@ a:last-child {
 
 @media all and (max-width:500px) {
 
+/*FLEX CONTAINERS*/
+
+#wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.nav-items {
+	flex-direction: column;
+}
+
+/*FLEX ITEMS*/
+
+#wrapper > * {
+  order:9999;
+}
+
+/*.navigation {
+	order: 1;
+}*/
+
+.toggleNav {
+  display: block;
+}
+
+.navigation ul {
+  display: none;
+}
+
+ul.open {
+  display: flex;
+}
 
 }
