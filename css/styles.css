@@ -15,14 +15,24 @@ body {
 
 h1 {
 	font-family:lato, sans-serif;
-	font-size: 2em;
+	font-size: 3em;
+	letter-spacing: 5px;
 	background: skyblue;
 
+}
+
+h2 {
+	font-size: 2em;
 }
 
 a {
 	text-decoration: none;
 	width: 100%;
+	transition:all 0.5s;	
+}
+
+a:hover {
+  background:rgba(0,0,0,0.3);
 }
 
 ul {
@@ -38,15 +48,28 @@ iframe {
 }
 
 input {
-  padding:10px;
-  border:0;
+ 	padding:10px;
+ 	border:0;
 }
+
+.header, .signup, .headline, .headline > h2, .footer {
+  	margin:20px 0;
+} 
+
 h1, .headline, .signup, .copyright {
 	text-align: center;
 }
 
+h1 a, .navigation a, .headline h2, .copyright a {
+	color: #050505;
+}
+
+.copyright > p {
+	color:gray;
+}
+
 #wrapper {
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
@@ -68,4 +91,19 @@ h1, .headline, .signup, .copyright {
 
 .toggleNav {
   display: none;
+}
+
+
+/* FLEX CONTAINER */
+
+.navigation ul {
+	display: flex;
+	border:1px solid black;
+}
+
+/* FLEX ITEMS */
+
+.navigation li {
+	flex:3;
+	margin: 20px 0;
 }
