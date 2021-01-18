@@ -1,5 +1,71 @@
 /* GLOBAL STYLES */
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-	
+	font-family: 'Roboto Mono', monospace;
+	background:#b6baa8;
+}
+
+h1 {
+	font-family:lato, sans-serif;
+	font-size: 2em;
+	background: skyblue;
+
+}
+
+a {
+	text-decoration: none;
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+p {
+	font-size: 18px;
+}
+
+iframe {
+	width: 100%;
+}
+
+input {
+  padding:10px;
+  border:0;
+}
+h1, .headline, .signup, .copyright {
+	text-align: center;
+}
+
+#wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.navigation {
+	background:yellow;
+}
+
+.headline{
+	background: pink;
+}
+
+.signup  {
+	background: #050505;
+}
+
+.footer {
+	background: lightgreen;
+}
+
+.toggleNav {
+  display: none;
 }
