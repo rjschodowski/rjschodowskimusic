@@ -15,7 +15,7 @@ body {
 
 h1 {
 	font-family:lato, sans-serif;
-	font-size: 3em;
+	font-size: 4rem;
 	letter-spacing: 5px;
 	background: lightgray;
 
@@ -23,21 +23,28 @@ h1 {
 
 h2 {
 	font-size: 2em;
+
 }
 
 p {
 	font-size: 18px;
 }
 
-a {
+h1 a, .navigation a, p a {
+	text-decoration: none;
+	color: #050505;
+	padding: 20px;
+}
+
+ul a {
 	text-decoration: none;
 	width: 100%;
 	color: #050505;
-	padding: 10px 5px;	
+	padding: 20px 50px;
 	display: inline-block;
 }
 
-a:hover {
+li a:hover {
   background:rgba(0,0,0,0.3);
 }
 
@@ -114,12 +121,12 @@ a:last-child {
 /* FLEX ITEMS */
 
 .navigation li {
-	flex:3;
+	flex: 1;
 	margin: 20px 0;
 }
 
 .footer li {
-	flex:3;
+	flex: 1;
 	margin: 20px 0;
 }
 
@@ -139,19 +146,11 @@ a:last-child {
 	flex-direction: column;
 }
 
+/* FLEX ITEMS*/
+
 .nav-items {
 	flex-direction: column;
 }
-
-/*FLEX ITEMS*/
-
-/*#wrapper > * {
-  order:9999;
-}*/
-
-/*.navigation {
-	order: 1;
-}*/
 
 .toggleNav {
   display: block;
