@@ -9,18 +9,20 @@ html {
 }
 
 body {
-	font-family: 'Roboto Mono', monospace;
-	background:#fff;
+	font-family: 'Lato', sans-serif;
+	background: lightgreen;
 }
 
 h1 {
-	font-family:lato, sans-serif;
-	font-size: 4rem;
-	letter-spacing: 5px;
+	font-family: 'Lato', sans-serif;
+	font-size: 3rem;
+	letter-spacing: 2px;
 }
 
 h2 {
-	font-size: 2em;
+	font-family: 'Lato', sans-serif;
+	font-size: 2rem;
+	letter-spacing: 2px;
 
 }
 
@@ -39,7 +41,6 @@ ul a {
 	width: 100%;
 	color: #050505;
 	padding: 20px 50px;
-	display: inline-block;
 }
 
 li a:hover {
@@ -59,7 +60,11 @@ input {
  	border:0;
 }
 
-.header, .signup, .signup > p, .headline {
+.header {
+	margin-top: 30px;
+}
+
+.signup, .signup > p, .headline {
   	margin:20px 0;
 } 
 
@@ -89,7 +94,7 @@ input {
 }
 
 .navigation {
-	background: lightgray;
+	background: lightblue;
 }
 
 .headline{
@@ -98,7 +103,7 @@ input {
 }
 
 .signup  {
-	background: lightgray;
+	background: lightblue;
 	padding: 20px;
 	margin: 20px 0;
 }
